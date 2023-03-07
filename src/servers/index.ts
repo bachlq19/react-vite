@@ -16,7 +16,7 @@ const onPut = async (s: sInterface) => {
 }
 
 const onDelete = async (s: sInterface) => {
-    return await axios.delete(s.url, s.header);
+    return await axios.delete(s.url, {headers: s.header});
 }
 
 const onPost = async (s: sInterface) => {

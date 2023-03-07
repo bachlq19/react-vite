@@ -22,6 +22,7 @@
       "@constants/*": ["./src/constants/*"],
       "@servers/*": ["./src/servers/*"],
       "@views/*": ["./src/views/*"],
+      "@redux/*": ["./src/redux/*"],
     }
   },
   "include": ["src"],

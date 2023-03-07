@@ -16,6 +16,7 @@ export default defineConfig({
       { find: "@constants", replacement: path.resolve(__dirname, "./src/constants/") },
       { find: "@servers", replacement: path.resolve(__dirname, "./src/servers/") },
       { find: "@views", replacement: path.resolve(__dirname, "./src/views/") },
+      { find: "@redux", replacement: path.resolve(__dirname, "./src/redux/") },
     ],
   },
 });
